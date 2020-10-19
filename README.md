@@ -1,4 +1,4 @@
-# netflix_clone
+# Netflix_Clone_App
 
 A new Flutter application.
 
