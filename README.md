@@ -2,6 +2,12 @@
 
 This is a simple clone app of Netflix . This contains just the UI of the front page so it does not have any content :XD.
 
+# Contributors
+D.V.Mohit Madhav Rao 
+
+PS: Made in less than a day.
+
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
