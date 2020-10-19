@@ -5,7 +5,7 @@ This is a simple clone app of Netflix . This contains just the UI of the front p
 # Contributors
 D.V.Mohit Madhav Rao 
 
-PS: Made in less than a day.
+PS: This was made in less than a day :D
 
 
 ## Getting Started
