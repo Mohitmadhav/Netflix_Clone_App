@@ -2,7 +2,7 @@
 
 This is a simple clone app of Netflix . This contains just the UI of the front page so it does not have any content :XD.
 
-![](Demo Run.gif)
+![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/Demo Run.gif)
 
 ## Getting Started
 
