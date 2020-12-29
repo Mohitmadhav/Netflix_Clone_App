@@ -2,7 +2,7 @@
 
 This is a simple clone app of Netflix . This contains just the UI of the front page so it does not have any content :XD.
 
-![Alt Text](file:///F:/Career/Netflix_Clone_App/Demo%20Run.gif)
+![Alt Text](https://drive.google.com/file/d/18ei7-KMIjU-feTyp3Mh-UUjSrNCTwKFf/view?usp=sharing)
 
 ## Getting Started
 
