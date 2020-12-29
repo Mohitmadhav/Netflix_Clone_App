@@ -2,9 +2,7 @@
 
 This is a simple clone app of Netflix . This contains just the UI of the front page so it does not have any content :XD.
 
-![Alt Text](https://drive.google.com/file/d/18ei7-KMIjU-feTyp3Mh-UUjSrNCTwKFf/view?usp=sharing)
-
-<img src="https://drive.google.com/file/d/18ei7-KMIjU-feTyp3Mh-UUjSrNCTwKFf/view?usp=sharing">
+![Alt Text](https://github.com/Mohitmadhav/Netflix-Clone-gif/blob/main/Netflix%20Demo.gif)
 
 ## Getting Started
 
