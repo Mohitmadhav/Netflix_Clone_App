@@ -2,12 +2,7 @@
 
 This is a simple clone app of Netflix . This contains just the UI of the front page so it does not have any content :XD.
 
-# Note
-I had some issues while building the apk file so if you are a beginner, so before the Flutter and Dart plugins before hand.
-
-# Fun Fact
-PS: This was made in less than a day :D
-
+![](Demo Run.gif)
 
 ## Getting Started
 

@@ -204,7 +204,10 @@ class NetflixHomeState extends State<NetflixHome> {
                                   color: Colors.black,
                                 ),
                                 Text(
-                                  ' Play', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+                                  ' Play',
+                                  style: TextStyle(
+                                      fontWeight: FontWeight.bold,
+                                      fontSize: 16),
                                 ),
                               ],
                             ),
@@ -237,102 +240,70 @@ class NetflixHomeState extends State<NetflixHome> {
                   height: 20.0,
                   child: Text(
                     'Previews',
-                    style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 18.0),
+                    style: TextStyle(
+                        color: Colors.white,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 18.0),
                   ),
                 ),
               ),
               Padding(
-                padding: EdgeInsets.only(top:85.0),
+                padding: EdgeInsets.only(top: 85.0),
                 child: Container(
                   height: MediaQuery.of(context).size.height,
                   width: MediaQuery.of(context).size.width,
-
-
                   child: ListView.builder(
-                      scrollDirection: Axis.horizontal,
-                      itemBuilder: (context, index) {
-                        return Padding(
-                          padding: const EdgeInsets.all(0.0),
-                          child: Row(
-                            children: <Widget>[
-                              CircleAvatar(
-
-
-                                backgroundImage: NetworkImage(
-                                    'https://1.bp.blogspot.com/-BQRGagMZqvc/XQIaXBxtvTI/AAAAAAAAKLY/oF9XgYUhn0IlbodPXUAN8OaGNwi2xPZWACLcBGAs/s00/Sacred-Games-Netflix-HD-Wallpapers-10.jpg'),
-
-                                radius: 60.0,
-
-
-                              ),
-
-                              CircleAvatar(
-
-
-                                backgroundImage: NetworkImage(
-                                    'https://raw.githubusercontent.com/YaseenAbdullah/Netflix/master/images/bird-box.jpg'),
-
-                                radius: 60.0,
-
-                              ),
-
-                              CircleAvatar(
-
-
-                                backgroundImage: NetworkImage(
-                                    'https://raw.githubusercontent.com/YaseenAbdullah/Netflix/master/images/lucifer-circle.png'),
-
-                                radius: 60.0,
-
-                              ),
-
-                              CircleAvatar(
-
-
-                                backgroundImage: NetworkImage(
-                                    'https://raw.githubusercontent.com/YaseenAbdullah/Netflix/master/images/13RW-Poster.jpg'),
-
-                                radius: 60.0,
-
-                              ),
-
-
-                              CircleAvatar(
-
-
-                                backgroundImage: NetworkImage(
-                                    'https://raw.githubusercontent.com/YaseenAbdullah/Netflix/master/images/red-sea-poster.jpg'),
-
-                                radius: 60.0,
-
-                              ),
-
-
-
-                            ],
-
-                          ),
-                        );
-                      },
-                      ),
+                    scrollDirection: Axis.horizontal,
+                    itemBuilder: (context, index) {
+                      return Padding(
+                        padding: const EdgeInsets.all(0.0),
+                        child: Row(
+                          children: <Widget>[
+                            CircleAvatar(
+                              backgroundImage: NetworkImage(
+                                  'https://1.bp.blogspot.com/-BQRGagMZqvc/XQIaXBxtvTI/AAAAAAAAKLY/oF9XgYUhn0IlbodPXUAN8OaGNwi2xPZWACLcBGAs/s00/Sacred-Games-Netflix-HD-Wallpapers-10.jpg'),
+                              radius: 60.0,
+                            ),
+                            CircleAvatar(
+                              backgroundImage: NetworkImage(
+                                  'https://raw.githubusercontent.com/YaseenAbdullah/Netflix/master/images/bird-box.jpg'),
+                              radius: 60.0,
+                            ),
+                            CircleAvatar(
+                              backgroundImage: NetworkImage(
+                                  'https://raw.githubusercontent.com/YaseenAbdullah/Netflix/master/images/lucifer-circle.png'),
+                              radius: 60.0,
+                            ),
+                            CircleAvatar(
+                              backgroundImage: NetworkImage(
+                                  'https://raw.githubusercontent.com/YaseenAbdullah/Netflix/master/images/13RW-Poster.jpg'),
+                              radius: 60.0,
+                            ),
+                            CircleAvatar(
+                              backgroundImage: NetworkImage(
+                                  'https://raw.githubusercontent.com/YaseenAbdullah/Netflix/master/images/red-sea-poster.jpg'),
+                              radius: 60.0,
+                            ),
+                          ],
+                        ),
+                      );
+                    },
+                  ),
                 ),
               ),
-
-
-
-
               Padding(
                 padding: EdgeInsets.only(top: 500.0, left: 20.0),
                 child: Container(
                   height: 20.0,
                   child: Text(
                     'New Releases',
-                    style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 18.0),
+                    style: TextStyle(
+                        color: Colors.white,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 18.0),
                   ),
                 ),
               ),
-
-
               Padding(
                 padding: EdgeInsets.only(top: 340.0),
                 child: Container(
@@ -342,69 +313,57 @@ class NetflixHomeState extends State<NetflixHome> {
                       scrollDirection: Axis.horizontal,
                       itemBuilder: (context, index) {
                         return Container(
-
                           child: Row(
-                          children: <Widget>[
-                            Container(
-                              child: Image.network('https://raw.githubusercontent.com/YaseenAbdullah/Netflix/master/images/TWD-poster.jpg'),
-                              height: 200,
-                              width: 190,
-                              
-                            ),
-
-
-                            Container(
-                              child: Image.network('https://raw.githubusercontent.com/YaseenAbdullah/Netflix/master/images/arrow-poster.jpg'),
-                              height: 200,
-                              width: 190,
-
-                            ),
-
-                            Container(
-                              child: Image.network('https://raw.githubusercontent.com/YaseenAbdullah/Netflix/master/images/dark-poster.jpg'),
-                              height: 200,
-                              width: 190,
-
-                            ),
-
-                            Container(
-                              child: Image.network('https://raw.githubusercontent.com/YaseenAbdullah/Netflix/master/images/suits-poster.jpg'),
-                              height: 200,
-                              width: 190,
-
-                            ),
-
-                            Container(
-                              child: Image.network('https://raw.githubusercontent.com/YaseenAbdullah/Netflix/master/images/sherlock-poster.jpg'),
-                              height: 200,
-                              width: 190,
-
-                            ),
-
-                          ],),
+                            children: <Widget>[
+                              Container(
+                                child: Image.network(
+                                    'https://raw.githubusercontent.com/YaseenAbdullah/Netflix/master/images/TWD-poster.jpg'),
+                                height: 200,
+                                width: 190,
+                              ),
+                              Container(
+                                child: Image.network(
+                                    'https://raw.githubusercontent.com/YaseenAbdullah/Netflix/master/images/arrow-poster.jpg'),
+                                height: 200,
+                                width: 190,
+                              ),
+                              Container(
+                                child: Image.network(
+                                    'https://raw.githubusercontent.com/YaseenAbdullah/Netflix/master/images/dark-poster.jpg'),
+                                height: 200,
+                                width: 190,
+                              ),
+                              Container(
+                                child: Image.network(
+                                    'https://raw.githubusercontent.com/YaseenAbdullah/Netflix/master/images/suits-poster.jpg'),
+                                height: 200,
+                                width: 190,
+                              ),
+                              Container(
+                                child: Image.network(
+                                    'https://raw.githubusercontent.com/YaseenAbdullah/Netflix/master/images/sherlock-poster.jpg'),
+                                height: 200,
+                                width: 190,
+                              ),
+                            ],
+                          ),
                         );
                       }),
                 ),
               ),
-
-
-
-
-
-
-
               Padding(
                 padding: EdgeInsets.only(top: 800.0, left: 20.0),
                 child: Container(
                   height: 20.0,
                   child: Text(
                     'Trending Now',
-                    style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold, fontSize: 18.0),
+                    style: TextStyle(
+                        color: Colors.white,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 18.0),
                   ),
                 ),
               ),
-
-
               Padding(
                 padding: EdgeInsets.only(top: 670.0),
                 child: Container(
@@ -416,53 +375,45 @@ class NetflixHomeState extends State<NetflixHome> {
                         return Padding(
                           padding: const EdgeInsets.all(0.0),
                           child: Container(
-
                             child: Row(
                               children: <Widget>[
                                 Container(
-                                  child: Image.network('https://raw.githubusercontent.com/YaseenAbdullah/Netflix/master/images/cable-girls.jpg'),
+                                  child: Image.network(
+                                      'https://raw.githubusercontent.com/YaseenAbdullah/Netflix/master/images/cable-girls.jpg'),
                                   height: 250,
                                   width: 230,
-
                                 ),
-
-
                                 Container(
-                                  child: Image.network('https://raw.githubusercontent.com/YaseenAbdullah/Netflix/master/images/the-punisher-poster.jpg'),
+                                  child: Image.network(
+                                      'https://raw.githubusercontent.com/YaseenAbdullah/Netflix/master/images/the-punisher-poster.jpg'),
                                   height: 250,
                                   width: 230,
-
                                 ),
-
                                 Container(
-                                  child: Image.network('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQKdvIzoZkN0OEuU2p21VdzTj0CCzM07FzZ1w&usqp=CAU'),
+                                  child: Image.network(
+                                      'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQKdvIzoZkN0OEuU2p21VdzTj0CCzM07FzZ1w&usqp=CAU'),
                                   height: 250,
                                   width: 230,
-
                                 ),
-
                                 Container(
-                                  child: Image.network('https://raw.githubusercontent.com/YaseenAbdullah/Netflix/master/images/prison-break-poster.jpg'),
+                                  child: Image.network(
+                                      'https://raw.githubusercontent.com/YaseenAbdullah/Netflix/master/images/prison-break-poster.jpg'),
                                   height: 250,
                                   width: 230,
-
                                 ),
-
                                 Container(
-                                  child: Image.network('https://raw.githubusercontent.com/YaseenAbdullah/Netflix/master/images/peaky-blinders-poster.jpg'),
+                                  child: Image.network(
+                                      'https://raw.githubusercontent.com/YaseenAbdullah/Netflix/master/images/peaky-blinders-poster.jpg'),
                                   height: 250,
                                   width: 230,
-
                                 ),
-
-                              ],),
+                              ],
+                            ),
                           ),
                         );
                       }),
                 ),
               ),
-
-
               Center(
                 child: Padding(
                   padding: EdgeInsets.only(top: 1150.0),
@@ -470,7 +421,10 @@ class NetflixHomeState extends State<NetflixHome> {
                     height: 20.0,
                     child: Text(
                       'Creator: Mohit Madhav',
-                      style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 20.0),
+                      style: TextStyle(
+                          color: Colors.white,
+                          fontWeight: FontWeight.bold,
+                          fontSize: 20.0),
                     ),
                   ),
                 ),
