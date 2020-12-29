@@ -4,7 +4,7 @@ This is a simple clone app of Netflix . This contains just the UI of the front p
 
 ![Alt Text](https://drive.google.com/file/d/18ei7-KMIjU-feTyp3Mh-UUjSrNCTwKFf/view?usp=sharing)
 
-<img src="https://drive.google.com/file/d/18ei7-KMIjU-feTyp3Mh-UUjSrNCTwKFf/view?usp=sharing"/>
+<img src="https://drive.google.com/file/d/18ei7-KMIjU-feTyp3Mh-UUjSrNCTwKFf/view?usp=sharing">
 
 ## Getting Started
 
