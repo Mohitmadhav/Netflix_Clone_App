@@ -5,12 +5,20 @@
   <a href="https://github.com/Mohitmadhav/Netflix_Clone_App/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/Mohitmadhav/Netflix_Clone_App"></a>
   <a href="https://github.com/Mohitmadhav/Netflix_Clone_App/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/Mohitmadhav/Netflix_Clone_App"></a>
 </div>
-<p align="center"><i>A responsive UI of the Netflix homepage app</i></p>
+<p align="center"><i>A responsive UI of the Netflix app</i></p>
 
-![Alt Text](https://github.com/Mohitmadhav/Netflix-Clone-gif/blob/main/Netflix%20Demo.gif)
-<p align="center"><i>
+## Screenshots
+ <p float="Center">
+ <img src="https://user-images.githubusercontent.com/59333817/104824124-4b23fe00-5875-11eb-8cce-5bbd3e85cc0b.png" width="30%" height="30%" />
+ <img src="https://user-images.githubusercontent.com/59333817/104824134-65f67280-5875-11eb-8bba-2278e39fdd0c.png" width="30%" height="30%" />
+ <img src="https://user-images.githubusercontent.com/59333817/104824146-7870ac00-5875-11eb-8d24-514401353296.png" width="30%" height="30%" />
+ </p>
+ <p float="Center">
+ <img src="https://user-images.githubusercontent.com/59333817/104824162-9c33f200-5875-11eb-8dd1-6e71f8362f8e.png" width="30%" height="30%" />
+ <img src="https://user-images.githubusercontent.com/59333817/104824174-ac4bd180-5875-11eb-9bfe-726d25f59033.png" width="30%" height="30%" />
+  </p>
 
-If you like this Repo, Please click the :star:
+If you like this Repo, Please hit the :star:
 
 ## Built With
 
