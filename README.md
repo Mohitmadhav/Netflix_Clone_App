@@ -6,10 +6,8 @@
   <a href="https://github.com/Mohitmadhav/Netflix_Clone_App/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/Mohitmadhav/Netflix_Clone_App"></a>
 </div>
 <p align="center"><i>A responsive UI of the Netflix homepage app</i></p>
-<br>
-This is a clone app of Netflix as an experiment to learn Flutter with no content in it :XD
 
-<br>
+This is a clone app of Netflix as an experiment to learn Flutter with no content in it :XD
 <br>
 ![Alt Text](https://github.com/Mohitmadhav/Netflix-Clone-gif/blob/main/Netflix%20Demo.gif)
 <p align="center"><i>
