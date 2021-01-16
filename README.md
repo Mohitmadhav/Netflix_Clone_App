@@ -7,19 +7,18 @@
 </div>
 <p align="center"><i>A responsive UI of the Netflix homepage app</i></p>
 
-This is a clone app of Netflix as an experiment to learn Flutter with no content in it :XD
 <br>
 ![Alt Text](https://github.com/Mohitmadhav/Netflix-Clone-gif/blob/main/Netflix%20Demo.gif)
 <p align="center"><i>
 
 If you like this Repo, Please click the :star:
 
-### Built With
+## Built With
 
 * [Flutter](https://flutter.dev/)
 * [Firebase](https://firebase.google.com/)
 
-### Clone
+## Clone
 
 Clone this repo
  ```sh
