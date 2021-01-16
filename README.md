@@ -7,7 +7,6 @@
 </div>
 <p align="center"><i>A responsive UI of the Netflix homepage app</i></p>
 
-<br>
 ![Alt Text](https://github.com/Mohitmadhav/Netflix-Clone-gif/blob/main/Netflix%20Demo.gif)
 <p align="center"><i>
 
