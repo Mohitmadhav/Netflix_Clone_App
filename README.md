@@ -1,5 +1,8 @@
 <h1 align="center">Netflix Clone App</h1>
-[![license](https://img.shields.io/badge/license-mit-brightgreen.svg)](https://en.wikipedia.org/wiki/MIT_License
+<div align="center">
+<a href="https://github.com/Mohitmadhav/Netflix_Clone_App/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/Mohitmadhav/Netflix_Clone_App?label=Licence"></a>
+[![build](https://img.shields.io/badge/build-passing-green)]()
+</div>
 <p align="center"><i>A responsive UI of the Netflix homepage app</i></p>
 This is a simple clone app of Netflix which contains the responsive UI of the front page so it does not have any content :XD.
 
