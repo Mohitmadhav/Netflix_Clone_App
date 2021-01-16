@@ -1,16 +1,42 @@
 <h1 align="center">Netflix Clone App</h1>
-<p align="center">https://img.shields.io/badge/license-MIT-green</p>
-<p align="center"><i>A responsive UI of the Netflix homepage app</i></p>
-This is a simple clone app of Netflix which contains the responsive UI of the front page so it does not have any content :XD.
+<div align="center">
+<a href="https://github.com/Mohitmadhav/Netflix_Clone_App/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/Mohitmadhav/Netflix_Clone_App?label=Licence"></a>
+<a href="https://github.com/Mohitmadhav/Netflix_Clone_App/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/Mohitmadhav/Netflix_Clone_App"></a>
+  <a href="https://github.com/Mohitmadhav/Netflix_Clone_App/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/Mohitmadhav/Netflix_Clone_App"></a>
+  <a href="https://github.com/Mohitmadhav/Netflix_Clone_App/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/Mohitmadhav/Netflix_Clone_App"></a>
+</div>
+<p align="center"><i>A responsive UI of the Netflix app</i></p>
 
-<br>
+## Screenshots
+<p align = "Center">
+<div align=”center”>
+ <img  src="https://user-images.githubusercontent.com/59333817/104824124-4b23fe00-5875-11eb-8cce-5bbd3e85cc0b.png" width="30%" height="30%" />
+ <img  src="https://user-images.githubusercontent.com/59333817/104824134-65f67280-5875-11eb-8bba-2278e39fdd0c.png" width="30%" height="30%" />
+ <img  src="https://user-images.githubusercontent.com/59333817/104824146-7870ac00-5875-11eb-8d24-514401353296.png" width="30%" height="30%" />
+ </div>
+ </p>
+ <br>
+ <p align = "Center">
+ <div align=”center”>
+ <img  src="https://user-images.githubusercontent.com/59333817/104824162-9c33f200-5875-11eb-8dd1-6e71f8362f8e.png" width="30%" height="30%" />
+ <img  src="https://user-images.githubusercontent.com/59333817/104824174-ac4bd180-5875-11eb-9bfe-726d25f59033.png" width="30%" height="30%" />
+ </div>
+  </p>
+  <br>
+  
+## Built With
 
-![Alt Text](https://github.com/Mohitmadhav/Netflix-Clone-gif/blob/main/Netflix%20Demo.gif)
-<p align="center"><i>
+* [Flutter](https://flutter.dev/)
+* [Firebase](https://firebase.google.com/)
 
-If you like this Repo, Please click the :star:
+## Clone
 
-## Getting Started
+Clone this repo
+ ```sh
+   git clone https://github.com/Mohitmadhav/Netflix_Clone_App.git
+   ```
+
+## Flutter Basics
 
 This project is a starting point for a Flutter application.
 
@@ -22,32 +48,6 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
-
-## :pencil: License
-
-This project is licensed under [MIT](https://opensource.org/licenses/MIT) license.
-
-MIT License
-
-Copyright (c) [year] [fullname]
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
 
 ## :man_astronaut: Show your support
 
