@@ -6,16 +6,29 @@
   <a href="https://github.com/Mohitmadhav/Netflix_Clone_App/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/Mohitmadhav/Netflix_Clone_App"></a>
 </div>
 <p align="center"><i>A responsive UI of the Netflix homepage app</i></p>
-This is a simple clone app of Netflix which contains the responsive UI of the front page so it does not have any content :XD.
+<br>
+This is a clone app of Netflix as an experiment to learn Flutter with no content in it :XD
 
 <br>
-
+<br>
 ![Alt Text](https://github.com/Mohitmadhav/Netflix-Clone-gif/blob/main/Netflix%20Demo.gif)
 <p align="center"><i>
 
 If you like this Repo, Please click the :star:
 
-## Getting Started
+### Built With
+
+* [Flutter](https://flutter.dev/)
+* [Firebase](https://firebase.google.com/)
+
+### Clone
+
+Clone this repo
+ ```sh
+   git clone https://github.com/Mohitmadhav/Netflix_Clone_App.git
+   ```
+
+## Flutter Basics
 
 This project is a starting point for a Flutter application.
 
