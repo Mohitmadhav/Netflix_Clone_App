@@ -9,14 +9,14 @@
 
 ## Screenshots
 <div align=”center”>
- <img align = "center"src="https://user-images.githubusercontent.com/59333817/104824124-4b23fe00-5875-11eb-8cce-5bbd3e85cc0b.png" width="30%" height="30%" />
+ <img align = "left" src="https://user-images.githubusercontent.com/59333817/104824124-4b23fe00-5875-11eb-8cce-5bbd3e85cc0b.png" width="30%" height="30%" />
  <img align = "center" src="https://user-images.githubusercontent.com/59333817/104824134-65f67280-5875-11eb-8bba-2278e39fdd0c.png" width="30%" height="30%" />
- <img align = "center" src="https://user-images.githubusercontent.com/59333817/104824146-7870ac00-5875-11eb-8d24-514401353296.png" width="30%" height="30%" />
+ <img align = "right" src="https://user-images.githubusercontent.com/59333817/104824146-7870ac00-5875-11eb-8d24-514401353296.png" width="30%" height="30%" />
  </div>
  <br>
  <div align=”center”>
  <img align = "center" src="https://user-images.githubusercontent.com/59333817/104824162-9c33f200-5875-11eb-8dd1-6e71f8362f8e.png" width="30%" height="30%" />
- <img align = "center" src="https://user-images.githubusercontent.com/59333817/104824174-ac4bd180-5875-11eb-9bfe-726d25f59033.png" width="30%" height="30%" />
+ <img align = "right" src="https://user-images.githubusercontent.com/59333817/104824174-ac4bd180-5875-11eb-9bfe-726d25f59033.png" width="30%" height="30%" />
  </div>
   
 
