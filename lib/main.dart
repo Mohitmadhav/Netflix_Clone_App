@@ -1,3 +1,4 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
@@ -101,6 +102,39 @@ class NetflixHomeState extends State<NetflixHome> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.black,
+        leading: Image.network(
+          'https://image.flaticon.com/icons/png/512/870/870910.png',
+          scale: 20,
+        ),
+        actions: <Widget>[
+          MaterialButton(
+            onPressed: () {},
+            child: Text(
+              'Series',
+              style: TextStyle(color: Colors.white),
+            ),
+          ),
+          MaterialButton(
+            onPressed: () {},
+            child: Text(
+              'Films',
+              style: TextStyle(color: Colors.white),
+            ),
+          ),
+          Padding(
+            padding: EdgeInsets.only(right: 20.0),
+            child: MaterialButton(
+              onPressed: () {},
+              child: Text(
+                'My List',
+                style: TextStyle(color: Colors.white),
+              ),
+            ),
+          ),
+        ],
+      ),
       backgroundColor: Color(0XFF221f1f),
       body: ListView(
         //So that you could scroll
@@ -128,46 +162,6 @@ class NetflixHomeState extends State<NetflixHome> {
                           Color(0XFF221f1f).withOpacity(0.0),
                           Color(0XFF221f1f),
                         ])),
-              ),
-              Positioned(
-                left: 10.0,
-                top: 10.0,
-                child: Container(
-                  height: 25.0,
-                  width: 25.0,
-                  child: Image.network(
-                      'https://image.flaticon.com/icons/png/512/870/870910.png'),
-                ),
-              ),
-              Positioned(
-                left: 50.0,
-                top: 15.0,
-                child: Container(
-                  child: Text(
-                    'Series',
-                    style: TextStyle(color: Colors.white),
-                  ),
-                ),
-              ),
-              Positioned(
-                left: 160.0,
-                top: 15.0,
-                child: Container(
-                  child: Text(
-                    'Films',
-                    style: TextStyle(color: Colors.white),
-                  ),
-                ),
-              ),
-              Positioned(
-                left: 280.0,
-                top: 15.0,
-                child: Container(
-                  child: Text(
-                    'My List',
-                    style: TextStyle(color: Colors.white),
-                  ),
-                ),
               ),
               Container(
                 child: Row(
@@ -252,37 +246,52 @@ class NetflixHomeState extends State<NetflixHome> {
                   child: ListView.builder(
                     scrollDirection: Axis.horizontal,
                     itemBuilder: (context, index) {
-                      return Padding(
-                        padding: const EdgeInsets.all(0.0),
-                        child: Row(
-                          children: <Widget>[
-                            CircleAvatar(
+                      return Row(
+                        children: <Widget>[
+                          MaterialButton(
+                            onPressed: () {},
+                            child: CircleAvatar(
                               backgroundImage: NetworkImage(
                                   'https://1.bp.blogspot.com/-BQRGagMZqvc/XQIaXBxtvTI/AAAAAAAAKLY/oF9XgYUhn0IlbodPXUAN8OaGNwi2xPZWACLcBGAs/s00/Sacred-Games-Netflix-HD-Wallpapers-10.jpg'),
                               radius: 60.0,
                             ),
-                            CircleAvatar(
-                              backgroundImage: NetworkImage(
-                                  'https://raw.githubusercontent.com/YaseenAbdullah/Netflix/master/images/bird-box.jpg'),
-                              radius: 60.0,
-                            ),
-                            CircleAvatar(
-                              backgroundImage: NetworkImage(
-                                  'https://raw.githubusercontent.com/YaseenAbdullah/Netflix/master/images/lucifer-circle.png'),
-                              radius: 60.0,
-                            ),
-                            CircleAvatar(
-                              backgroundImage: NetworkImage(
-                                  'https://raw.githubusercontent.com/YaseenAbdullah/Netflix/master/images/13RW-Poster.jpg'),
-                              radius: 60.0,
-                            ),
-                            CircleAvatar(
-                              backgroundImage: NetworkImage(
-                                  'https://raw.githubusercontent.com/YaseenAbdullah/Netflix/master/images/red-sea-poster.jpg'),
-                              radius: 60.0,
-                            ),
-                          ],
-                        ),
+                          ),
+                          SizedBox(
+                            width: 10,
+                          ),
+                          CircleAvatar(
+                            backgroundImage: NetworkImage(
+                                'https://raw.githubusercontent.com/YaseenAbdullah/Netflix/master/images/bird-box.jpg'),
+                            radius: 60.0,
+                          ),
+                          SizedBox(
+                            width: 10,
+                          ),
+                          CircleAvatar(
+                            backgroundImage: NetworkImage(
+                                'https://raw.githubusercontent.com/YaseenAbdullah/Netflix/master/images/lucifer-circle.png'),
+                            radius: 60.0,
+                          ),
+                          SizedBox(
+                            width: 10,
+                          ),
+                          CircleAvatar(
+                            backgroundImage: NetworkImage(
+                                'https://raw.githubusercontent.com/YaseenAbdullah/Netflix/master/images/13RW-Poster.jpg'),
+                            radius: 60.0,
+                          ),
+                          SizedBox(
+                            width: 10,
+                          ),
+                          CircleAvatar(
+                            backgroundImage: NetworkImage(
+                                'https://raw.githubusercontent.com/YaseenAbdullah/Netflix/master/images/red-sea-poster.jpg'),
+                            radius: 60.0,
+                          ),
+                          SizedBox(
+                            width: 10,
+                          ),
+                        ],
                       );
                     },
                   ),
@@ -316,19 +325,19 @@ class NetflixHomeState extends State<NetflixHome> {
                                 child: Image.network(
                                     'https://raw.githubusercontent.com/YaseenAbdullah/Netflix/master/images/TWD-poster.jpg'),
                                 height: 200,
-                                width: 190,
+                                width: 160,
                               ),
                               Container(
                                 child: Image.network(
                                     'https://raw.githubusercontent.com/YaseenAbdullah/Netflix/master/images/arrow-poster.jpg'),
                                 height: 200,
-                                width: 190,
+                                width: 160,
                               ),
                               Container(
                                 child: Image.network(
                                     'https://raw.githubusercontent.com/YaseenAbdullah/Netflix/master/images/dark-poster.jpg'),
                                 height: 200,
-                                width: 190,
+                                width: 160,
                               ),
                               Container(
                                 child: Image.network(
