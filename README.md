@@ -8,20 +8,22 @@
 <p align="center"><i>A responsive UI of the Netflix app</i></p>
 
 ## Screenshots
+<p align = "Center">
 <div align=”center”>
  <img  src="https://user-images.githubusercontent.com/59333817/104824124-4b23fe00-5875-11eb-8cce-5bbd3e85cc0b.png" width="30%" height="30%" />
  <img  src="https://user-images.githubusercontent.com/59333817/104824134-65f67280-5875-11eb-8bba-2278e39fdd0c.png" width="30%" height="30%" />
  <img  src="https://user-images.githubusercontent.com/59333817/104824146-7870ac00-5875-11eb-8d24-514401353296.png" width="30%" height="30%" />
  </div>
+ </p>
  <br>
+ <p align = "Center">
  <div align=”center”>
  <img  src="https://user-images.githubusercontent.com/59333817/104824162-9c33f200-5875-11eb-8dd1-6e71f8362f8e.png" width="30%" height="30%" />
  <img  src="https://user-images.githubusercontent.com/59333817/104824174-ac4bd180-5875-11eb-9bfe-726d25f59033.png" width="30%" height="30%" />
  </div>
+  </p>
   <br>
   
-<b>If you like this Repo, Please hit the :star:</b>
-
 ## Built With
 
 * [Flutter](https://flutter.dev/)
